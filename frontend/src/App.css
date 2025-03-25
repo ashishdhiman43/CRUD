@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background: linear-gradient(135deg, #0f316f, #2a5298);
+    min-height: 60vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.Fetch_ID{
+    width: 62%;
+}
+
+h2{
+    color: #e7e2e2;
+}
+h3{
+    color: #e7e2e2;
+}
+ul{
+    background: transparent;
+    list-style-type: none;
+    padding: 0px;
+}
+
+button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 4px 15px;
+    border-radius: 12px;
+    cursor:pointer;
+}
+button:hover{
+    background-color: #0056b3;
+}
+input{
+    margin: 8px 0px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
